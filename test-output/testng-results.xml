@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Inside user registration test]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="62" started-at="2018-12-13T04:46:59Z" finished-at="2018-12-13T04:46:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="62" started-at="2018-12-13T04:46:59Z" finished-at="2018-12-13T04:46:59Z">
+      <class name="LearningTestNG.TestCase1">
+        <test-method status="PASS" signature="createDBConn()[pri:0, instance:LearningTestNG.TestCase1@1e88b3c]" name="createDBConn" is-config="true" duration-ms="16" started-at="2018-12-13T04:46:59Z" finished-at="2018-12-13T04:46:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDBConn -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:LearningTestNG.TestCase1@1e88b3c]" name="launchBrowser" is-config="true" duration-ms="0" started-at="2018-12-13T04:46:59Z" finished-at="2018-12-13T04:46:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="doUserReg()[pri:1, instance:LearningTestNG.TestCase1@1e88b3c]" name="doUserReg" duration-ms="15" started-at="2018-12-13T04:46:59Z" finished-at="2018-12-13T04:46:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Inside user registration test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- doUserReg -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:LearningTestNG.TestCase1@1e88b3c]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2018-12-13T04:46:59Z" finished-at="2018-12-13T04:46:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeDBConn()[pri:0, instance:LearningTestNG.TestCase1@1e88b3c]" name="closeDBConn" is-config="true" duration-ms="0" started-at="2018-12-13T04:46:59Z" finished-at="2018-12-13T04:46:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDBConn -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:LearningTestNG.TestCase1@1e88b3c]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2018-12-13T04:46:59Z" finished-at="2018-12-13T04:46:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="doLogin()[pri:2, instance:LearningTestNG.TestCase1@1e88b3c]" name="doLogin" duration-ms="0" started-at="2018-12-13T04:46:59Z" finished-at="2018-12-13T04:46:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:LearningTestNG.TestCase1@1e88b3c]" name="launchBrowser" is-config="true" duration-ms="0" started-at="2018-12-13T04:46:59Z" finished-at="2018-12-13T04:46:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+      </class> <!-- LearningTestNG.TestCase1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

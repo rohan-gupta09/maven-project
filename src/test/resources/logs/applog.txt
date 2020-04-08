@@ -1,0 +1,2 @@
+INFO    2020-01-21 23:09:08,273 [main] TestCase.CourseTestProperties  - OR Properties is Loaded !!!!!
+INFO    2020-01-21 23:09:08,275 [main] TestCase.CourseTestProperties  - Config properties file loaded !!!

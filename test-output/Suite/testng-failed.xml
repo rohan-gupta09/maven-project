@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="LearningTestNG.CustomListeners"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="validate title Test(failed)">
+    <classes>
+      <class name="LearningTestNG.TestCase2">
+        <methods>
+          <include name="validateTitle"/>
+        </methods>
+      </class> <!-- LearningTestNG.TestCase2 -->
+    </classes>
+  </test> <!-- validate title Test(failed) -->
+  <test thread-count="5" name=" depedency Test(failed)">
+    <classes>
+      <class name="LearningTestNG.TestCase3">
+        <methods>
+          <include name="isSkip"/>
+          <include name="doUserReg"/>
+        </methods>
+      </class> <!-- LearningTestNG.TestCase3 -->
+    </classes>
+  </test> <!--  depedency Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
